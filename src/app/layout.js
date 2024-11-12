@@ -45,7 +45,7 @@ export default function RootLayout({ children }) {
                       <BreadcrumbSeparator className="hidden md:block" />
                       <BreadcrumbItem>
                         <BreadcrumbPage className="text-lg text-black font-semibold">
-                          Our Menu
+                          {"Amareshwara Fast Food Center (AFC)"}
                         </BreadcrumbPage>
                       </BreadcrumbItem>
                     </BreadcrumbList>
