@@ -218,10 +218,10 @@ export default function Page() {
 
       {selectedItems.length > 0 && (
         <div className="fixed bottom-0 left-0 right-0 bg-white shadow-lg border-t border-gray-200 p-4">
-          <div className="max-w-7xl mx-auto flex justify-between items-center">
-            <div className="text-lg font-semibold">
+          <div className="max-w-7xl lg:pl-[25%] md:pl-[25%] flex justify-between items-center">
+            <div className="flex flex-col text-lg font-semibold">
               Selected Items: {selectedItems.length}
-              <span className="ml-4 text-orange-500">
+              <span className="text-orange-500">
                 Total: ₹ {calculateTotalPrice()}
               </span>
             </div>
