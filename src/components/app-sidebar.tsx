@@ -40,6 +40,10 @@ const data = {
           url: "/history",
         },
         {
+          title: "Our Menu",
+          url: "/",
+        },
+        {
           title: "Game",
           url: "/game",
         },
