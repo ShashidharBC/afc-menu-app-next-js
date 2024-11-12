@@ -76,7 +76,7 @@ const MemoryGame = () => {
         </div>
       </div>
 
-      <div className="grid grid-cols-4 gap-4 max-w-md px-6">
+      <div className="grid grid-cols-4 gap-4 max-w-md px-3">
         {cards.map((card, index) => (
           <button
             key={card.id}
