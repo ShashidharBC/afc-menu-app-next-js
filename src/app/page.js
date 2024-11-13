@@ -5,6 +5,7 @@ import Image from "next/image";
 import { useState, useEffect } from "react";
 import { useRouter } from "next/navigation";
 import { Button } from "@/components/ui/button";
+import { CarouselPlugin } from "@/components/carousel";
 
 export default function Page() {
   const [favoriteItems, setFavoriteItems] = useState([]);
@@ -147,6 +148,9 @@ export default function Page() {
 
   return (
     <div className="flex flex-col mt-6 min-h-screen relative pb-24">
+      <div className="flex items-center justify-center">
+        <CarouselPlugin />
+      </div>
       <span className="text-2xl text-gray-800 font-semibold px-4">
         Our Menu
       </span>
