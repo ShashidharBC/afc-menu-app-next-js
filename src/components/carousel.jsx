@@ -25,14 +25,24 @@ export function CarouselPlugin() {
     >
       <CarouselContent>
         {[
-          { src: "/kachori.jpg", alt: "Kachori" },
-          { src: "/samosa.jpg", alt: "Samosa" },
-          { src: "/patties.jpeg", alt: "Patties" },
-          { src: "/gobi.jpeg", alt: "Gobi" },
-          { src: "/chips.jpg", alt: "Chips" },
+          {
+            src: "/gobi_noodles.jpg",
+            alt: "gobi-noodles",
+            title: "AFC Gobi Noodles",
+          },
+          {
+            src: "/sangam_vada.jpg",
+            alt: "sangam-vada",
+            title: "AFC Sangam Vada",
+          },
+          { src: "/kachori.jpg", alt: "Kachori", title: "AFC Kachori" },
+          { src: "/samosa.jpg", alt: "Samosa", title: "AFC Samosa" },
+          { src: "/patties.jpeg", alt: "Patties", title: "AFC Patties" },
+          { src: "/gobi.jpeg", alt: "Gobi", title: "AFC Gobi's" },
+          { src: "/chips.jpg", alt: "Chips", title: "AFC French Fries" },
         ].map((image, index) => (
           <CarouselItem key={index}>
-            <div className="p-1 h-full">
+            <div className="p-1 h-full flex flex-col">
               <Card className="h-full">
                 <CardContent className="p-2 h-full">
                   <Image
@@ -44,6 +54,9 @@ export function CarouselPlugin() {
                   />
                 </CardContent>
               </Card>
+              <div className="text-center mt-4 font-medium text-gray-800">
+                {image.title}
+              </div>
             </div>
           </CarouselItem>
         ))}

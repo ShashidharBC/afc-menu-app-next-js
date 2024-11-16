@@ -29,13 +29,13 @@ export default function Page() {
     {
       id: 2,
       name: "AFC Kachori",
-      price: "20",
+      price: "15",
       image: "/kachori.jpg",
     },
     {
       id: 3,
       name: "AFC Samosa",
-      price: "20",
+      price: "15",
       image: "/samosa.jpg",
     },
     {
@@ -47,7 +47,7 @@ export default function Page() {
     {
       id: 5,
       name: "AFC Cabbage Gobi",
-      price: "50",
+      price: "40",
       image: "/gobi.jpeg",
     },
     {
@@ -58,21 +58,34 @@ export default function Page() {
     },
     {
       id: 7,
-      name: "AFC Finger Chips",
-      price: "35",
+      name: "AFC French Fries",
+      price: "30",
       image: "/chips.jpg",
     },
     {
       id: 8,
       name: "AFC Noodles",
-      price: "35",
+      price: "30",
       image: "/noodles.jpeg",
     },
     {
       id: 9,
       name: "AFC Alu Twister",
-      price: "35",
+      price: "30",
       image: "/twister.jpg",
+    },
+
+    {
+      id: 10,
+      name: "AFC Gobi Noodles",
+      price: "50",
+      image: "/gobi_noodles.jpg",
+    },
+    {
+      id: 11,
+      name: "AFC Sangam Vada",
+      price: "20",
+      image: "/sangam_vada.jpg",
     },
   ];
 
@@ -148,7 +161,10 @@ export default function Page() {
 
   return (
     <div className="flex flex-col mt-6 min-h-screen relative pb-24">
-      <div className="flex items-center justify-center">
+      <div className="flex flex-col items-center justify-center">
+        <span className="flex text-start text-2xl self-start my-2 ml-10 font-medium text-gray-800">
+          Todays Special🤤
+        </span>
         <CarouselPlugin />
       </div>
       <span className="text-2xl text-gray-800 font-semibold px-4">
