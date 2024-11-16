@@ -162,7 +162,7 @@ export default function Page() {
   return (
     <div className="flex flex-col mt-6 min-h-screen relative pb-24">
       <div className="flex flex-col items-center justify-center">
-        <span className="flex text-start text-2xl self-start my-2 ml-10 font-medium text-gray-800">
+        <span className="flex text-start text-xl self-start my-2 ml-3 font-medium text-gray-800">
           Todays Special🤤
         </span>
         <CarouselPlugin />
