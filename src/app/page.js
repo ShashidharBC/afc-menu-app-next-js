@@ -6,6 +6,7 @@ import { useState, useEffect } from "react";
 import { useRouter } from "next/navigation";
 import { Button } from "@/components/ui/button";
 import { CarouselPlugin } from "@/components/carousel";
+import Copyright from "@/components/copy-right";
 
 export default function Page() {
   const [favoriteItems, setFavoriteItems] = useState([]);
@@ -235,6 +236,9 @@ export default function Page() {
           </div>
         ))}
       </div>
+      <footer>
+        <Copyright />
+      </footer>
 
       {selectedItems.length > 0 && (
         <div className="fixed bottom-0 left-0 right-0 bg-white shadow-lg border-t border-gray-200 p-4">
