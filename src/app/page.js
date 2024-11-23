@@ -43,7 +43,7 @@ export default function Page() {
       id: 4,
       name: "AFC Patties",
       price: "15",
-      image: "/patties.jpeg",
+      image: "/patties_2.jpg",
     },
     {
       id: 5,
@@ -80,13 +80,19 @@ export default function Page() {
       id: 10,
       name: "AFC Gobi Noodles",
       price: "50",
-      image: "/gobi_noodles.jpg",
+      image: "/gobi_noodles_2.png",
     },
     {
       id: 11,
       name: "AFC Sangam Vada",
       price: "20",
-      image: "/sangam_vada.jpg",
+      image: "/sangamVada.jpeg",
+    },
+    {
+      id: 12,
+      name: "AFC Gobi 65",
+      price: "50",
+      image: "/gobi_65.jpeg",
     },
   ];
 

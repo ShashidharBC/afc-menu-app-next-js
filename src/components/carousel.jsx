@@ -25,20 +25,21 @@ export function CarouselPlugin() {
     >
       <CarouselContent>
         {[
-          {
-            src: "/gobi_noodles.jpg",
-            alt: "gobi-noodles",
-            title: "AFC Gobi Noodles",
-          },
+          { src: "/gobi_65.jpeg", alt: "gobi-65-img", title: "AFC Gobi 65" },
           {
             src: "/sangam_vada.jpg",
             alt: "sangam-vada",
             title: "AFC Sangam Vada",
           },
+          {
+            src: "/gobi_noodles_2.png",
+            alt: "gobi-noodles",
+            title: "AFC Gobi Noodles",
+          },
+
           { src: "/kachori.jpg", alt: "Kachori", title: "AFC Kachori" },
           { src: "/samosa.jpg", alt: "Samosa", title: "AFC Samosa" },
-          { src: "/patties.jpeg", alt: "Patties", title: "AFC Patties" },
-          { src: "/gobi.jpeg", alt: "Gobi", title: "AFC Gobi's" },
+          { src: "/patties_2.jpg", alt: "Patties", title: "AFC Patties" },
           { src: "/chips.jpg", alt: "Chips", title: "AFC French Fries" },
         ].map((image, index) => (
           <CarouselItem key={index}>
